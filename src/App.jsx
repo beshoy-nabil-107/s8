@@ -6,28 +6,6 @@ import NotFound from './assets/pages/NotFound'
 
 export default function App() {
   return (
-    <div className='app-container'>
-      <div className="navbar">
-        <Link to="/">Home</Link>
-        <Link to="/profile">Profile</Link>
-
-      </div>
-
-
-      <div className="main-container">
-
-        <Routes>
-          <Route path='/' Component={Home} />
-          <Route path='/profile' Component={Profile} />
-          <Route path='*' Component={NotFound} />
-
-
-
-        </Routes>
-
-      </div>
-
-
-    </div>
+      <h1>Change</h1>
   )
 }
